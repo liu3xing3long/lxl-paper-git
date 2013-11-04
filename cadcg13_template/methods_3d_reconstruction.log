@@ -1,0 +1,16 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.18)  21 OCT 2013 14:20
+entering extended mode
+**E:/vessel_reconstruction_paper/cadcg13_template/methods_3d_reconstruction.tex
+
+(E:/vessel_reconstruction_paper/cadcg13_template/methods_3d_reconstruction.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+! Undefined control sequence.
+l.1 \subsubsection
+                  {Reconstruction Overview}
+? 
+! Emergency stop.
+l.1 \subsubsection
+                  {Reconstruction Overview}
+End of file on the terminal!
+

@@ -1,0 +1,189 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Hoover}
+A.~Hoover, V.~Kouznetsova, M.~Goldbaum, Locating blood vessels in retinal
+  images by piecewise threshold probing of a matched filter response, Medical
+  Imaging, IEEE Transactions on 19~(3) (2000) 203--210.
+
+\bibitem{Li}
+Q.~Li, J.~You, D.~Zhang, Vessel segmentation and width estimation in retinal
+  images using multiscale production of matched filter responses, Expert
+  Systems with Applications 39~(9) (2012) 7600--7610.
+
+\bibitem{Frangi}
+A.~F. Frangi, W.~J. Niessen, K.~L. Vincken, M.~A. Viergever, Multiscale vessel
+  enhancement filtering, in: Medical Image Computing and Computer-Assisted
+  Interventation¡ªMICCAI¡¯98, Springer, 1998, pp. 130--137.
+
+\bibitem{Condurache}
+A.-P. Condurache, T.~Aach, Vessel segmentation in angiograms using hysteresis
+  thresholding, in: IAPR Conference on Machine Vision Applications, Citeseer,
+  2005.
+
+\bibitem{Deformable1}
+A.~K. Klein, F.~Lee, A.~A. Amini, Quantitative coronary angiography with
+  deformable spline models, Medical Imaging, IEEE Transactions on 16~(5) (1997)
+  468--482.
+
+\bibitem{Deformable2}
+L.~Sarry, J.-Y. Boire, Three-dimensional tracking of coronary arteries from
+  biplane angiographic sequences using parametrically deformable models,
+  Medical Imaging, IEEE Transactions on 20~(12) (2001) 1341--1351.
+
+\bibitem{Deformable3}
+C.~Ca{\~n}ero, F.~Vilari{\~n}o, J.~Mauri, P.~Radeva, Predictive (un) distortion
+  model and 3-d reconstruction by biplane snakes, Medical Imaging, IEEE
+  Transactions on 21~(9) (2002) 1188--1201.
+
+\bibitem{Tracking1}
+S.~Park, J.~Lee, J.~Koo, O.~Kwon, S.~Hong, Adaptive tracking algorithm based on
+  direction field using ml estimation in angiogram, in: TENCON'97. IEEE Region
+  10 Annual Conference. Speech and Image Technologies for Computing and
+  Telecommunications., Proceedings of IEEE, Vol.~2, IEEE, 1997, pp. 671--675.
+
+\bibitem{Tracking2}
+A.~C. Dumay, J.~J. Gerbrands, J.~H. Reiber, Automated extraction, labelling and
+  analysis of the coronary vasculature from arteriograms, The International
+  Journal of Cardiac Imaging 10~(3) (1994) 205--215.
+
+\bibitem{Tracking3}
+S.~R. Aylward, E.~Bullitt, Initialization, noise, singularities, and scale in
+  height ridge traversal for tubular object centerline extraction, Medical
+  Imaging, IEEE Transactions on 21~(2) (2002) 61--75.
+
+\bibitem{Tracking4}
+A.~Sen, L.~Lan, K.~R. Hoffmann, Improved coronary vessel tracking using
+  non-linear filter enhanced x-ray angiograms, in: Engineering in Medicine and
+  Biology Society, 1997. Proceedings of the 19th Annual International
+  Conference of the IEEE, Vol.~2, IEEE, 1997, pp. 573--576.
+
+\bibitem{Tracking5}
+A.~Sen, L.~Lan, K.~Doi, K.~R. Hoffmann, Quantitative evaluation of vessel
+  tracking techniques on coronary angiograms, Medical Physics 26 (1999) 698.
+
+\bibitem{Kirbas}
+C.~Kirbas, F.~Quek, A review of vessel extraction techniques and algorithms,
+  ACM Computing Surveys (CSUR) 36~(2) (2004) 81--121.
+
+\bibitem{Wellnhofer}
+E.~Wellnhofer, A.~Wahle, I.~Mugaragu, J.~Gross, H.~Oswald, E.~Fleck, Validation
+  of an accurate method for three-dimensional reconstruction and quantitative
+  assessment of volumes, lengths and diameters of coronary vascular branches
+  and segments from biplane angiographic projections, The International Journal
+  of Cardiac Imaging 15~(5) (1999) 339--353.
+
+\bibitem{Messenger}
+J.~C. Messenger, S.~J. Chen, J.~D. Carroll, J.~Burchenal, K.~Kioussopoulos,
+  B.~M. Groves, 3d coronary reconstruction from routine single-plane coronary
+  angiograms: clinical validation and quantitative analysis of the right
+  coronary artery in 100 patients, The International Journal of Cardiac Imaging
+  16~(6) (2000) 413--427.
+
+\bibitem{Gollapudi}
+R.~R. Gollapudi, R.~Valencia, S.~S. Lee, G.~B. Wong, P.~S. Teirstein, M.~J.
+  Price, Utility of three-dimensional reconstruction of coronary angiography to
+  guide percutaneous coronary intervention, Catheterization and Cardiovascular
+  Interventions 69~(4) (2007) 479--482.
+
+\bibitem{Movassaghi}
+B.~Movassaghi, V.~Rasche, M.~Grass, M.~A. Viergever, W.~J. Niessen, A
+  quantitative analysis of 3-d coronary modeling from two or more projection
+  images, Medical Imaging, IEEE Transactions on 23~(12) (2004) 1517--1531.
+
+\bibitem{Sprague}
+K.~Sprague, M.~Drangova, G.~Lehmann, P.~Slomka, D.~Levin, B.~Chow, et~al.,
+  Coronary x-ray angiographic reconstruction and image orientation, Medical
+  physics 33 (2006) 707.
+
+\bibitem{Hansis}
+E.~Hansis, D.~Sch{\"a}fer, O.~D{\"o}ssel, M.~Grass, Projection-based motion
+  compensation for gated coronary artery reconstruction from rotational x-ray
+  angiograms, Physics in medicine and biology 53~(14) (2008) 3807.
+
+\bibitem{Nguyen}
+T.~V. Nguyen, J.~Sklansky, Reconstructing the 3-d medial axes of coronary
+  arteries in single-view cineangiograms, Medical Imaging, IEEE Transactions on
+  13~(1) (1994) 61--73.
+
+\bibitem{Marcus}
+M.~L. Marcus, K.~C. Dellsperger, Determinants of systolic and diastolic
+  ventricular function, in: Cardiac Imaging, 1991, p. 24¨C38.
+
+\bibitem{rule_based1}
+J.~A. Fessler, A.~Macovski, Object-based 3-d reconstruction of arterial trees
+  from magnetic resonance angiograms, in: Medical Imaging, IEEE Transactions
+  on, Vol.~10, 1991, p. 25¨C39.
+
+\bibitem{rule_based2}
+I.~Liu, Y.~Sun, Fully automated reconstruction of three-dimensional vascular
+  tree structures from two orthogonal views using computational algorithms and
+  productionrules, Optical Engineering 31~(10) (1992) 2197--2207.
+
+\bibitem{opti_est1}
+J.~Weng, N.~Ahuja, T.~S. Huang, Optimal motion and structure estimation,
+  Pattern Analysis and Machine Intelligence, IEEE Transactions on 15~(9) (1993)
+  864--884.
+
+\bibitem{opti_est2}
+S.-Y.~J. Chen, K.~R. Hoffmann, J.~D. Carroll, Three-dimensional reconstruction
+  of coronary arterial tree based on biplane angiograms, Proc SPIE Med Imag:
+  Image Processing 2710 (1996) 103--114.
+
+\bibitem{opti_est3}
+S.-Y.~J. Chen, C.~E. Metz, Improved determination of biplane imaging geometry
+  from two projection images and its application to 3-d reconstruction of
+  coronary arterial trees, in: Med. Phys., Vol.~24, 1997, p. 633¨C654.
+
+\bibitem{opti_view1}
+G.~Finet, J.~Lienard, Optimizing coronary angiographic views, The International
+  Journal of Cardiac Imaging 11 (1995) 53--54.
+
+\bibitem{opti_view2}
+Y.~Sato, T.~Araki, M.~Hanayama, H.~Naito, S.~Tamura, A viewpoint determination
+  system for stenosis diagnosis and quantification in coronary angiographic
+  image acquisition, Medical Imaging, IEEE Transactions on 17~(1) (1998)
+  121--137.
+
+\bibitem{opti_view3}
+E.~E. van~der Wall, What¡¯s new in cardiac imaging, in: Nuclear Cardiology and
+  Cardiac Magnetic Resonance, Springer, 1992, pp. 255--268.
+
+\bibitem{James_Chen}
+S.~J. Chen, J.~D. Carroll, 3-d reconstruction of coronary arterial tree to
+  optimize angiographic visualization, Medical Imaging, IEEE Transactions on
+  19~(4) (2000) 318--336.
+
+\bibitem{Land_Retinex}
+E.~H. Land, An alternative technique for the computation of the designator in
+  the retinex theory of color vision, Proceedings of the National Academy of
+  Sciences 83~(10) (1986) 3078--3080.
+
+\bibitem{JOBSON_Retinex}
+D.~J. Jobson, Z.-u. Rahman, G.~A. Woodell, Properties and performance of a
+  center/surround retinex, Image Processing, IEEE Transactions on 6~(3) (1997)
+  451--462.
+
+\bibitem{MOORE_Retinex}
+A.~Moore, J.~Allman, R.~M. Goodman, A real-time neural system for color
+  constancy, Neural Networks, IEEE Transactions on 2~(2) (1991) 237--247.
+
+\bibitem{lighting_equotion}
+A.~Hurlbert, Formal connections between lightness algorithms, JOSA A 3~(10)
+  (1986) 1684--1693.
+
+\bibitem{Hassouna}
+M.~S. Hassouna, A.~A. Farag, Multistencils fast marching methods: A highly
+  accurate solution to the eikonal equation on cartesian domains, Pattern
+  Analysis and Machine Intelligence, IEEE Transactions on 29~(9) (2007)
+  1563--1574.
+
+\bibitem{Jakob}
+J.~A. B{\ae}rentzen, On the implementation of fast marching methods for 3d
+  lattices, Tech. rep. (2001).
+
+\end{thebibliography}

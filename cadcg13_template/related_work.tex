@@ -1,0 +1,82 @@
+
+Our work relates to vessel extraction from image and vessel
+reconstruction etc. We briefly review them in the following
+categories.
+
+\subsection*{Vessel Extraction}
+Hoover et al.~\cite{Hoover} use a mathematical filter to entails a
+broad range of vessel enhancement and Li et al.~\cite{Li} do this
+using a non-linear filter. Frangi et al.~\cite{Frangi} use the eigen
+values of Hessian matrix to extract the tube-like structures from the
+X-Ray images. Condurache et al.~\cite{Condurache} use this method
+while adding a hysteresis thresholding method to purify the extracted
+data.
+
+\subsection*{Centerline Extraction}
+Centerline extraction consists of six kinds of techniques: pattern
+recognition techniques, deformable model based techniques
+\cite{Deformable1}\cite{Deformable2}\cite{Deformable3}, tracking-based
+techniques \cite{Tracking1}\cite{Tracking2}\cite{Tracking3} \cite{Tracking4}
+\cite{Tracking5}, artificial intelligence-based techniques, neural
+network-based techniques and miscellaneous tube-like object detection
+techniques. Each one contains many sub-types such as multi-scale approaches,
+mathematical morphology approaches. Readers please refer to~\cite{Kirbas}
+for an overview of the centerline extraction technologies.
+
+\subsection*{3D Reconstruction}
+
+As with 3D reconstruction, Wellnhofer et al.~\cite{Wellnhofer} and Messanger
+et al.~\cite{Messenger} evaluate that 3D reconstructions of coronary
+arteries from 2D X-Ray image sequences permit accurate results of the real
+data. The two types of the X-Ray machine lead to two slightly different ways
+of 3D reconstruction. The biplane system takes two (mostly) synchronized
+projection of the coronary arteries~\cite{Wellnhofer}\cite{Messenger}.
+Meanwhile the mono-plane (single-plane) system~\cite{Gollapudi} can just
+take one view at the same time, therefore selection of asynchronous images
+from multiple views is needed. However, using only two 2D projections to
+reconstruct the complex 3D topology of coronary artery is often not
+sufficient. Movassaghi et al.~\cite{Movassaghi} uses multiple projections
+for realistic vessel lumen simulations, but only uses two for 3D centerline
+reconstruction. Sprague et al.~\cite{Sprague} utilizes the benefits of three
+projections experimentally. Hansis et al.~\cite{Hansis} has used multiple
+projections from a single rotational X-Ray angiography to reconstruct the 3D
+centerline and the topology. Nguyen et al.~\cite{Nguyen} propose a method
+based on motion and multiple views using a single-plane imaging system. They
+only consider the rotation and scaling of the heart motion but rigorously
+the heart motion during contraction and relaxation consists of five
+movements: translation, rotation, wringing, accordion-like motion and
+movement towards the center of the ventricular chamber~\cite{Marcus}.
+Therefore, a simple motion can not generally describe the heart cardiac
+cycle.
+
+Other routines such as knowledged-based or rule-based have been
+proposed for 3D reconstruction using the vascular network
+model~\cite{rule_based1} \cite{rule_based2}. Since their rules or
+knowledge are designed for specific conditions, it is not easy to
+generalize these kinds of methods to process artery data.
+
+In~\cite{opti_est1}\cite{opti_est2}\cite{opti_est3}, optimal
+estimation are investigated with a two-step approach based on
+maximum-likelihood and minimum-variance estimation. They use a linear
+algorithm to compute the preliminary estimates as the initial
+estimates for the process of optimal estimation. Due to the huge
+computation, none of the existing techniques have been used in
+clinical therapy.
+
+\subsection*{Other Focuses}
+
+Another focus on 3D reconstruction is on the elimination or
+minimization of foreshortening and overlap of the coronary arteries
+which is a prerequisite for an accurate quantitative coronary analysis
+such as the vessel lengths and aneurysms. In~\cite{opti_view1},
+they focus on the minimization of vessel foreshortening relative to
+a single arterial segment. Sato et al.~\cite{opti_view2} and
+Finet et al.~\cite{opti_view3} introduce an
+optimal view selection method considering both foreshortening and
+vessel overlap. Chen et al.~\cite{James_Chen} use bifurcation points
+and the vessel directional vectors of bifurcations to register between image
+pairs. Meanwhile, they also proposed a method of selecting
+the minimized foreshortening views. But, it depends on bifurcations
+overmuch and requires at least five pairs of bifurcations to ensure
+accurate transformation. Also, their work is time consuming with a
+whole procedure of ten minutes.

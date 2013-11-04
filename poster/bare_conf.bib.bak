@@ -1,0 +1,79 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: GBK
+
+@ARTICLE{Tracking3,
+  author = {Aylward, Stephen R and Bullitt, Elizabeth},
+  title = {Initialization, noise, singularities, and scale in height ridge traversal
+	for tubular object centerline extraction},
+  journal = {Medical Imaging, IEEE Transactions on},
+  year = {2002},
+  volume = {21},
+  pages = {61--75},
+  number = {2},
+  publisher = {IEEE}
+}
+
+@ARTICLE{felzenszwalb2006efficient,
+  author = {Felzenszwalb, Pedro F and Huttenlocher, Daniel P},
+  title = {Efficient belief propagation for early vision},
+  journal = {International Journal of Computer Vision},
+  year = {2006},
+  volume = {70},
+  pages = {41--54},
+  number = {1},
+  publisher = {Springer}
+}
+
+@INCOLLECTION{Frangi,
+  author = {Frangi, Alejandro F and Niessen, Wiro J and Vincken, Koen L and Viergever,
+	Max A},
+  title = {Multiscale vessel enhancement filtering},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  year = {1998},
+  pages = {130--137}
+}
+
+@ARTICLE{Hassouna,
+  author = {Hassouna, M Sabry and Farag, Aly A},
+  title = {Multistencils fast marching methods: A highly accurate solution to
+	the eikonal equation on cartesian domains},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {2007},
+  volume = {29},
+  pages = {1563--1574},
+  number = {9},
+  publisher = {IEEE}
+}
+
+@ARTICLE{JOBSON_Retinex,
+  author = {Jobson, Daniel J and Rahman, Zia-ur and Woodell, Glenn A},
+  title = {Properties and performance of a center/surround retinex},
+  journal = {IEEE Transactions on Image Processing},
+  year = {1997},
+  volume = {6},
+  pages = {451--462},
+  number = {3},
+  publisher = {IEEE}
+}
+
+@ARTICLE{Li,
+  author = {Li, Qin and You, Jane and Zhang, David},
+  title = {Vessel segmentation and width estimation in retinal images using
+	multiscale production of matched filter responses},
+  journal = {Expert Systems with Applications},
+  year = {2012},
+  volume = {39},
+  pages = {7600--7610},
+  number = {9},
+  publisher = {Elsevier}
+}
+
+@INPROCEEDINGS{rahman1996multi,
+  author = {Rahman, Zia-ur and Jobson, Daniel J and Woodell, Glenn A},
+  title = {Multi-scale retinex for color image enhancement},
+  booktitle = {International Conference on Image Processing},
+  year = {1996},
+  volume = {3},
+  pages = {1003--1006}
+}
+

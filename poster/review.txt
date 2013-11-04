@@ -1,0 +1,132 @@
+Summary review: There are technical flaws in this paper. Yet, I would like to see this paper as a poster.
+
+------------------------------------------
+Reviewer #1:
+Originality [0-9] 7
+Clarity  [0-9] 8
+Relevance to CAD/Graphics 2013 topics [0-9] 9
+Technical Quality [0-9] 7
+Overall Judgement [0-9] 7.5
+
+
+Reviewers Domain Expertise: Medium.
+Would you recommend this submission for Best Paper Award (No)
+Will this paper require much editorial rewriting? (No)
+
+
+This paper  presents a method to reconstruct vessel from multiple
+X-Ray views. The method/system uses several known and effective
+techniques of image reconstruction, like the multiscale Hessian
+matrix method and the fast marching method. On the step of 3D
+construction, the paper seems present its own method which looks
+effective. Overall, the combined method and implemented system
+performs very good on reasonably complicated data.
+
+Suggestions:
+
+(1) Please make it clearer which methods are your own contribution.
+
+(2) Please check the paper carefully. Here are some typos:
+
+line 34: local constrains -- local constraints
+
+line 188 N stands for the -> K stands for the
+
+line this problem is serve -> this problem is severe
+
+line 332: forward and backwards two points -> forward and backwards
+points
+
+
+
+Reviewer #2:
+Originality [0-9] 3
+Clarity  [0-9] 2
+Relevance to CAD/Graphics 2013 topics [0-9] 7
+Technical Quality [0-9] 3
+Overall Judgement [0-9] 3
+
+Detailed comments to authors:
+There are plenty of spelling and grammatical errors.
+an efficient
+constrain -> constraints
+synthetical -> synthetic
+paragraph starting line 416: Is it possibility or probability?
+
+In order to project the image into the common 3D space, this method requires 3D position of the center of projection of various views. But in the introduction, the paper says that they overcome the need to know the accurate angle requirement. How is this issue taken care of this paper. This is a fundamental problem that is not addressed clearly.
+
+The proposed 3D reconstruction method is well known variant of the classic voxel carving method.
+
+Correspondence based 3D reconstruction requires time-synchronous imaging from multiple views. Single plane imaging provides images during the same cardiac cycle- not time-synchrnous views. It is not clear from the paper how this fundamental problem handled in this work.
+
+Error statistics figure (Figure 12)  cannot be read at all. There is no proper explanation in the paper either.
+
+Figure 13: reconstructed real data has a lot of disconnected arteries. I believe it is because of non-time-synchronous imaging. There is no discussion about this in the paper.
+
+There is no validation of the reconstructed results of the real data.
+
+There are technical flaws in this paper and cannot be accepted before they are corrected.
+
+
+
+Reviewer #3:
+Originality [5]
+This paper is about how to efficiently reconstruct 3D vessel images from
+X-ray angiography with multiple views. The algorithm consists of three steps: 1. Vessel extraction; 2. Centerline tracking; 3. Reconstruction. The authors claim this paper solves several major drawbacks of current technologies, such as low quality of extraction, input image restriction, less flexible registration, etc. Based on my knowledge, the method is original in the field of X-ray angiography. However, the similar pipeline has been employed to many other applications of other fields involving 3D reconstruction based on 2D input images like cell movement tracking visualization. Also, the techniques used for two of main contributions the authors claim, image enhancement and vessel extraction, are very standard and commonly used by most of image processing works.
+
+Clarity [3]
+The clarity is the major problem of this paper. There are a few minor spelling errors can be easily fixed, such as:
+1.      In abstract, first line: ., we present a (should be "an") efficient.
+2.      Line 34: ., 3D reconstruction with local constrains (should be "constraints", multiple instances of the similar mistake can be found through this paper) .
+3.      Line 206: ., this problem is serve (should be "severe").
+4.      Line 288: can achieve better accurency (should be "accuracy").
+5.      Line 374: . the registration result may not good . (should be "may not be")
+However, there are other typos can lead to much more confusion to readers:
+1.      Line 188: where i stands for ith channel, N stands for the. (However, I cannot find N in equation (6)).
+2.      Line 327: . its two adjacent neighbours. Using this five points, . (I don't know how this number "five" is obtained in this context).
+Other issues do not appear to be typos:
+1.      Line 240: I don't think Rb should be zero when <lambda>1 tends to be 0. It should be infinite based on equation (13).
+2.      Line 331: R3 doesn't seem to be an intersection point in Figure 7 at all.
+3.      There is no conclusion and discussion of limitation.
+
+Relevance to CAD/Graphics 2013 topics [7]
+This paper is definitely related to CAD/Graphics 2013 topics.
+
+Technical Quality [4]
+With the problems mentioned in the Clarity session, it is difficult to evaluate the details of the technical quality. The pipeline looks reasonable, though. The results of synthetic data appear to be promising. However, I would like to see more results of real data to judge it. Also, it will be greatly helpful if the authors can figure out some way to analyze the results of real data.
+
+Overall Judgement [3]
+I will suggest reject this paper because of the above issues.
+
+Explanation:
+0-1 Poor - Reject
+2-3 Below average - Reject
+4-5 Average
+6-7 Good
+8-9 Very good - Recommend strongly
+
+Reviewers Domain Expertise: Medium.
+Would you recommend this submission for Best Paper Award (No)
+Will this paper require much editorial rewriting? (Yes)
+
+
+
+
+Reviewer #4:
+Originality [0-9]  7
+Clarity  [0-9] 7
+Relevance to CAD/Graphics 2013 topics [0-9] 7
+Technical Quality [0-9]  7
+Overall Judgement [0-9]  7
+
+Reviewers Domain Expertise: Medium.
+Would you recommend this submission for Best Paper Award: No
+Will this paper require much editorial rewriting? Yes. There are some typos and grammar issues, the authors should proofread the paper carefully
+
+
+This paper presents a practical system for reconstructing vessels from multi-views of x-ray angiography. The proposed system consists of several components, including image enhancement, Hessian matrix based vessel extraction, centerline tracking, diameter computation, and 3D reconstruction. Some components (such as enhancement and  multi-scale hessian matrix) are based on the existing techniques. The authors demonstrated their system on a few examples. The results look convincing.
+
+I have a few minor comments.
+1) The error plot (Figure 12) is not clear. The labels are too small.
+2) The experimental results are bit weak. Please show more results in the revision.
+3) What are the limitations of the proposed method? Please discuss them.

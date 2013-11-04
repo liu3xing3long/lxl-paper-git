@@ -1,0 +1,425 @@
+@inproceedings{Hoover,
+ author = {A. D. Hoover, V. Kouznetsova, and M. Goldbaum},
+ title = {Locating blood vessels in retinal images by piecewise threshold probing of a matched filter response},
+ booktitle = {IEEE Transactions on Medical Imaging},
+ year = {2000},
+ pages = {203每210},
+}
+@article{hoover2000locating,
+  title={Locating blood vessels in retinal images by piecewise threshold probing of a matched filter response},
+  author={Hoover, AD and Kouznetsova, Valentina and Goldbaum, Michael},
+  journal={Medical Imaging, IEEE Transactions on},
+  volume={19},
+  number={3},
+  pages={203--210},
+  year={2000},
+  publisher={IEEE}
+}
+%[1]	A. D. Hoover, V. Kouznetsova, and M. Goldbaum, ※Locating blood vessels in retinal images by piecewise threshold probing
+%of a matched filter response,§ IEEE Transactions on Medical Imaging, vol. 19, no. 3, pp. 203每210, 2000.
+
+@inproceedings{Li,
+ author = {Q. Li, J. You, and D. Zhang},
+ title = {Vessel segmentation and width estimation in retinal images using multiscale production of matched filter responses},
+ booktitle = {Expert Systems with Applications},
+ year = {2011},
+ pages = {7600每7610},
+}
+%[2]	Q. Li, J. You, and D. Zhang, ※Vessel segmentation and width estimation in retinal images using multiscale production of matched filter responses,
+%§ Expert Systems with Applications, vol. 39, no. 9, pp. 7600每7610, 2011.
+
+
+@inproceedings{Frangi,
+ author = {A. Frangi, W. Niessen, K. Vincken, and M. Viergever},
+ title = {Multiscale vessel enhancement filtering},
+ booktitle = {Medical Image Computing and Computer-Assisted Interventation (MICCAI ＊98)},
+ year = {1998},
+ pages = {130每137},
+}
+%[4]	A. Frangi, W. Niessen, K. Vincken, and M. Viergever, ※Multiscale vessel enhancement filtering,§
+%in Medical Image Computing and Computer-Assisted Interventation (MICCAI ＊98), pp. 130每137, 1998.
+
+@inproceedings{Condurache,
+ author = {A. P. Condurache and T. Aach},
+ title = {Vessel segmentation in angiograms using hysteresis thresholding},
+ booktitle = {IAPR Conference On Machine Vision Applications (MVA ＊05)},
+ year = {2005},
+ pages = {269每272},
+}
+%[5]	A. P. Condurache and T. Aach, ※Vessel segmentation in angiograms using hysteresis thresholding,§
+%in IAPR Conference On Machine Vision Applications (MVA ＊05), pp. 269每272, 2005
+
+@inproceedings{Kirbas,
+ author = {C. Kirbas, F.K. Quek},
+ title = {A review of vessel extraction techniques and algorithms},
+ booktitle = {ACM Comput. Surv},
+ year = {2004},
+ pages = {81每121},
+}
+%[8]	C. Kirbas, F.K. Quek, A review of vessel extraction techniques and algorithms, ACM Comput. Surv. 36 (2) (2004) 81每121.
+
+%======================================Deformable Based Begin======================================
+%[23]	A.K. Klein, F. Lee, A.A. Amini, Quantitative coronary angiography with deformable spline models, IEEE Trans.
+%Med. Imaging 16 (5) (1997) 468每482.
+%[24]	L. Sarry, J.Y. Boire, Three-dimensional tracking of coronary arteries from biplane angiographic sequences using parametrically deformable models, IEEE Trans. Med.
+%Imaging 20 (12) (2001) 1341每1351.
+%[25]	C. Canero, F. Vilarino, J. Mauri, Predictive (un)distortion model and 3D reconstruction by biplane snakes, IEEE Trans.
+%Med. Imaging 21 (9) (2002) 1188每1201.
+@inproceedings{Deformable1,
+ author = {A.K. Klein, F. Lee, A.A. Amini},
+ title = {Quantitative coronary angiography with deformable spline models},
+ booktitle = {IEEE Trans. Med. Imaging},
+ year = {1997},
+ pages = {468每482},
+}
+
+@inproceedings{Deformable2,
+ author = {L. Sarry, J.Y. Boire},
+ title = {Three-dimensional tracking of coronary arteries from biplane angiographic sequences using parametrically deformable models},
+ booktitle = {EEE Trans. Med. Imaging},
+ year = {2001},
+ pages = {1341每1351},
+}
+
+@inproceedings{Deformable3,
+ author = {C. Canero, F. Vilarino, J. Mauri},
+ title = {Predictive (un)distortion model and 3D reconstruction by biplane snakes},
+ booktitle = {IEEE Trans. Med. Imaging},
+ year = {2002},
+ pages = {1188每1201},
+}
+%======================================Deformable Based End======================================
+
+%======================================tracking Based Begin======================================
+%[13]	S. Park, J. Lee, J. Koo, O. Kwon, S. Hong, Adaptive tracking algorithm based on direction field using ML estimation in angiogram, in:
+% Proceedings of the IEEE Conference on Speech and Image Technologies for Computing and Telecommunications, vol. 2, 1997, pp. 671每675.
+%[14]	A.C. Dumay, J.J. Gerbrands, J.H. Reiber,
+% Automated extraction, labeling and analysis of the coronary vasculature from arteriograms, Yearbook Med. Inform. (1996) 353每363.
+%[15]	S.R. Aylward, E. Bullitt,
+% Initialization, noise, singularities, and scale in height ridge traversal for tubular object centerline extraction, IEEE Trans. Med. Imaging 21 (2) (2002) 61每75.
+%[16]	A. Sen, L. Lan, K.R. Hoffmann,
+% Improved coronary vessel tracking using non-linear filter enhanced X-ray angiograms, in: Proceedings of the 19th Annual IEEE/EMBS Conference, Chicago, USA, 1997, pp. 573每576.
+%[17]	A. Sen, L. Lan, K. Doi, K.R. Hoffmann, Quantitative evaluation of vessel tracking techniques on coronary angiograms, Med. Phys. 26 (5) (1999) 698每706.
+@inproceedings{Tracking1,
+ author = {S. Park, J. Lee, J. Koo, O. Kwon, S. Hong},
+ title = {Adaptive tracking algorithm based on direction field using ML estimation in angiogram},
+ booktitle = {Proceedings of the IEEE Conference on Speech and Image Technologies for Computing and Telecommunications, vol. 2},
+ year = {1997},
+ pages = {671每675},
+}
+@inproceedings{Tracking2,
+ author = {A.C. Dumay, J.J. Gerbrands, J.H. Reiber},
+ title = {Automated extraction, labeling and analysis of the coronary vasculature from arteriograms},
+ booktitle = {Yearbook Med. Inform},
+ year = {1996},
+ pages = {353每363},
+}
+@inproceedings{Tracking3,
+ author = {S.R. Aylward, E. Bullitt},
+ title = {Initialization, noise, singularities, and scale in height ridge traversal for tubular object centerline extraction},
+ booktitle = {IEEE Trans. Med. Imaging},
+ year = {2002},
+ pages = {61每75},
+}
+@inproceedings{Tracking4,
+ author = {A. Sen, L. Lan, K.R. Hoffmann},
+ title = {Improved coronary vessel tracking using non-linear filter enhanced X-ray angiograms},
+ booktitle = {Proceedings of the 19th Annual IEEE/EMBS Conference},
+ year = {1997},
+ pages = {573每576},
+}
+@inproceedings{Tracking5,
+ author = {A. Sen, L. Lan, K. Doi, K.R. Hoffmann},
+ title = {Quantitative evaluation of vessel tracking techniques on coronary angiograms},
+ booktitle = {Med. Phys.},
+ year = {1999},
+ pages = {698每706},
+}
+%======================================tracking Based ======================================
+@inproceedings{Retinex1,
+ author = {ORSI NI G, RAMPONI G, CARRAI P},
+ title = {A modified RetineX for image contrast enhancement and dynamics control},
+ booktitle = {Image Processing 2003 Proceedings, 2003 International Conference on Image Processing},
+ year = {2003},
+ pages = {393-396},
+}
+
+
+
+
+%====================================== vessel enhancement begin====================================
+@article{manniesing2006vessel,
+  title={Vessel enhancing diffusion: A scale space representation of vessel structures},
+  author={Manniesing, Rashindra and Viergever, Max A and Niessen, Wiro J},
+  journal={Medical Image Analysis},
+  volume={10},
+  number={6},
+  pages={815--825},
+  year={2006},
+  publisher={Elsevier}
+}
+%====================================== vessel enhancement end======================================
+
+%====================================== 3-d reconstruction begin ==================================
+%Wellnhofer E, Wahle A, Mugaragu I, Gross J, Oswald H, Fleck E (1999)
+%Validation of an accurate method for threedimensional reconstruction and quantitative assessment of volumes,lengths and diameters of coronary vascular branches and segments from biplane angiographic projections.
+%Int J Card Imaging 15:339每353
+@article{Wellnhofer,
+  title={Vessel enhancing diffusion: A scale space representation of vessel structures},
+  author={Wellnhofer E, Wahle A, Mugaragu I, Gross J, Oswald H, Fleck E},
+  journal={Int J Card Imaging 15},
+  volume={15},
+  pages={339每353},
+  year={1999},
+  publisher={Elsevier}
+}
+
+% 4.	Messenger J, Chen S, Carroll J, Burchenal J, Kioussopoulos K, Groves B (2000)
+% 3-D coronary reconstruction from routine single-plane coronary angiograms: clinical validation and quantitative analysis of the right coronary artery in 100 patients.
+% Int J Card Imaging 16:413每427
+@inproceedings{Messenger,
+ author = {Messenger J, Chen S, Carroll J, Burchenal J, Kioussopoulos K, Groves B},
+ title = {3-D coronary reconstruction from routine single-plane coronary angiograms: clinical validation and quantitative analysis of the right coronary artery in 100 patients},
+ booktitle = {Int J Card Imaging 16},
+ year = {2000},
+ pages = {413每427},
+}
+
+%5.	Gollapudi R, Valencia R, Lee S, Wong G, Teirstein P, Price M (2006)
+%Utility of three-dimensional reconstruction of coronary angiography to guide percutaneous coronary intervention.
+%Catheterization and Cardiovascular Interventions 69:479每482
+@inproceedings{Gollapudi,
+ author = {Gollapudi R, Valencia R, Lee S, Wong G, Teirstein P, Price M},
+ title = {Utility of three-dimensional reconstruction of coronary angiography to guide percutaneous coronary intervention},
+ booktitle = {Catheterization and Cardiovascular Interventions},
+ year = {2006},
+ pages = {479每482},
+}
+
+% 20.	Movassaghi B, Rasche V, Grass M, Viergever M, Niessen W (2004)
+% A quantitative analysis of 3D coronary modeling from two or more projection images.
+% IEEE Trans. Med. Imaging 23:1517每1531
+@inproceedings{Movassaghi,
+ author = {Movassaghi B, Rasche V, Grass M, Viergever M, Niessen W},
+ title = {Utility of three-dimensional reconstruction of coronary angiography to guide percutaneous coronary intervention},
+ booktitle = {IEEE Trans. Med. Imaging},
+ year = {2004},
+ pages = {517每1531},
+}
+
+% 10.	Sprague K (2006) Coronary X-ray angiographic reconstruction and image orientation. Med Phys 3(3):707每718
+@inproceedings{Sprague,
+ author = {Sprague K},
+ title = {Coronary X-ray angiographic reconstruction and image orientation},
+ booktitle = {Med Phys},
+ year = {2006},
+ pages = {707每718},
+}
+
+% 17.	Hansis E, Schafer D, Dossel O, Grass M (2008)
+% Projectionbased motion compensation for gated coronary artery reconstruction from rotational X-ray angiograms.
+% Phys Med Biol 53:3807每3820
+@inproceedings{Hansis,
+ author = {Hansis E, Schafer D, Dossel O, Grass M},
+ title = {Projectionbased motion compensation for gated coronary artery reconstruction from rotational X-ray angiograms},
+ booktitle = {Phys Med Biol},
+ year = {2008},
+ pages = {3807每3820},
+}
+
+% 18. T. V. Nguyen and J. Sklansky,
+% ※Reconstructing the 3-D medial axes of coronary arteries in single-view cine-angiograms,§
+% IEEE Trans. Med. Imag., vol. 13, pp. 61每73, Mar. 1994
+@inproceedings{Nguyen,
+ author = {T. V. Nguyen, J. Sklansky},
+ title = {Reconstructing the 3-D medial axes of coronary arteries in single-view cine-angiograms},
+ booktitle = {IEEE Trans. Med. Imag., vol. 13},
+ year = {1994},
+ pages = {61每73},
+}
+
+% M. L. Marcus and K. C. Dellsperger,
+% ※Determinants of systolic and diastolic ventricular function,§ Cardiac Imag., pp. 24每38, 1991.
+@inproceedings{Marcus,
+ author = {M. L. Marcus and K. C. Dellsperger},
+ title = {Determinants of systolic and diastolic ventricular function},
+ booktitle = {Cardiac Imag.},
+ year = {1991},
+ pages = {24每38},
+}
+% J. A. Fessler and A. Macovski,
+% ※Object-based 3-D reconstruction of arterial trees from magnetic resonance angiograms,§
+% IEEE Trans. Med. Imag., vol. 10, pp. 25每39, Mar. 1991.
+@inproceedings{rule_based1,
+ author = {J. A. Fessler and A. Macovski},
+ title = {Object-based 3-D reconstruction of arterial trees from magnetic resonance angiograms},
+ booktitle = {IEEE Trans. Med. Imag., vol. 10},
+ year = {1991},
+ pages = {25每39},
+}
+% I. Liu and Y. Sun,
+% ※Fully automated reconstruction of 3-D vascular tree structures from two orthogonal views using computational algorithms and production rules,§
+% Opt. Eng., vol. 31, no. 10, pp. 2197每2207, Oct. 1992.
+@inproceedings{rule_based2,
+ author = {I. Liu and Y. Sun},
+ title = {Fully automated reconstruction of 3-D vascular tree structures from two orthogonal views using computational algorithms and production rules},
+ booktitle = {Opt. Eng., vol. 31, no. 10},
+ year = {1992},
+ pages = {2197每2207},
+}
+%%--------------------------------------------------------------------------------------------------------------------------------
+% J. Philip, ※Estimation of 3-D motion of rigid objects from noisy observations,§ IEEE Trans. Pattern Anal. Machine Intell., vol. 13, pp. 61 每66, Jan. 1991.
+@inproceedings{close_form1,
+ author = {J. Philip},
+ title = {Fully automated reconstruction of 3-D vascular tree structures from two orthogonal views using computational algorithms and production rules},
+ booktitle = {Opt. Eng., vol. 31, no. 10},
+ year = {1992},
+ pages = {61每66},
+}
+
+% F. Cheriet, J. Meunier, J. Lesperance, and M. Bertrand, ※Self-calibration of a stereo system using matched points: Application to biplane X-ray imaging,§ in SPIE Intelligent Robots and Computer Vision XIII: 3D Vision, Product Inspection, and Active Vision Philadelphia, PA, 1994 , vol. 2354, pp. 279每289.
+@inproceedings{close_form2,
+ author = {I. Liu and Y. Sun},
+ title = {Fully automated reconstruction of 3-D vascular tree structures from two orthogonal views using computational algorithms and production rules},
+ booktitle = {Opt. Eng., vol. 31, no. 10},
+ year = {1992},
+ pages = {2197每2207},
+}
+
+%%--------------------------------------------------------------------------------------------------------------------------------
+% J. Weng, N. Ahuja, and T. S. Huang,
+% ※Optimal motion and structure estimation,§ IEEE Trans. Pattern Anal. Machine Intell., vol. 15, pp. 864每884, Sept. 1993.
+@inproceedings{opti_est1,
+ author = {J. Weng, N. Ahuja, and T. S. Huang},
+ title = {Optimal motion and structure estimation},
+ booktitle = {IEEE Trans. Pattern Anal. Machine Intell., vol. 15},
+ year = {1993},
+ pages = {864每884},
+}
+
+% S.-Y. J. Chen, K. R. Hoffmann, and J. D. Carroll,
+% ※Three-dimensional reconstruction of coronary arterial tree based on biplane angiograms,§
+% in Proc. SPIE Medical Imaging: Image Processing, vol. 2710, Newport Beach, CA, 1996, pp. 103每114.
+@inproceedings{opti_est2,
+ author = {S.-Y. J. Chen, K. R. Hoffmann, and J. D. Carroll},
+ title = {Three-dimensional reconstruction of coronary arterial tree based on biplane angiograms},
+ booktitle = {Proc. SPIE Medical Imaging: Image Processing, vol. 2710},
+ year = {1996},
+ pages = {103每114},
+}
+
+% S.-Y. J. Chen and C. E. Metz,
+% ※Improved determination of biplane imaging geometry from two projection images and its application to 3-D reconstruction of coronary arterial trees,§
+% Med. Phys., vol. 24, no. 5, pp. 633每654, 1997.
+@inproceedings{opti_est3,
+ author = {S.-Y. J. Chen and C. E. Metz},
+ title = {Improved determination of biplane imaging geometry from two projection images and its application to 3-D reconstruction of coronary arterial trees},
+ booktitle = {Med. Phys., vol. 24, no. 5},
+ year = {1997},
+ pages = {633每654},
+}
+%%--------------------------------------------------------------------------------------------------------------------------------
+% G. Finet and J. Lienard, ※Optimizing coronary angiographic views,§ Int. J. Cardiac Imaging, pt. 1, vol. 1, pp. 53每54, 1995.
+@inproceedings{opti_view1,
+ author = {G. Finet and J. Lienard},
+ title = {Optimizing coronary angiographic views},
+ booktitle = {Int. J. Cardiac Imaging, pt. 1, vol. 1},
+ year = {1995},
+ pages = {53每54},
+}
+
+% Y. Sato, T. Araki, M. Hanayama, H. Natio, and S. Tamura,
+% ※A viewpoint determination system for stenosis diagnosis and quantification in coronary angiographic image acquisition,§
+% IEEE Trans. Med. Imag., vol. 17, pp. 121每137, Feb. 1998.
+@inproceedings{opti_view2,
+ author = {Y. Sato, T. Araki, M. Hanayama, H. Natio, and S. Tamura},
+ title = {A viewpoint determination system for stenosis diagnosis and quantification in coronary angiographic image acquisition},
+ booktitle = {IEEE Trans. Med. Imag., vol. 17},
+ year = {1998},
+ pages = {121每137},
+}
+
+% S.-Y. J. Chen and J. D. Carroll,
+% ※3-D coronary angiography: Improving visualization strategy for coronary interventions,§ in
+% What＊s New in Cardiovascular Imaging, J. H. C. Reiber and E. E. van der Wall, Eds. Amsterdam, The Netherlands: Kluwer, 1998, pp. 61每77.
+@inproceedings{opti_view3,
+ author = {G. Finet and J. Lienard},
+ title = {What＊s New in Cardiovascular Imaging},
+ booktitle = {Int. J. Cardiac Imaging, pt. 1, vol. 1},
+ year = {1998},
+ pages = {61每77},
+}
+
+@inproceedings{James_Chen,
+ author = {S. James Chen and John D. Carroll},
+ title = {3-D Reconstruction of Coronary Arterial Tree to Optimize Angiographic Visualization},
+ booktitle = {IEEE TRANSACTIONS ON MEDICAL IMAGING, VOL. 22, NO. 4},
+ year = {2000},
+ pages = {318每339},
+}
+	
+
+% EDWIN H. LAND An alter native technique for the computation of the designator in the Retinex theory of color vision".
+%Proc. Nati. Acad. Sci. USA
+% Vol. 83, pp. 3078-3080, May 1986 Physics
+@inproceedings{Land_Retinex,
+ author = {EDWIN H. LAND },
+ title = {An alternative technique for the computation of the designator in the Retinex theory of color vision},
+ booktitle = {Proc. Nati. Acad. Sci. USA Vol. 83},
+ year = {1986},
+ pages = {3078-3080},
+}
+% JOBSON D J  RA~ MAN Z   OODELL G A . Properties and performance of a center/surround Retinex.
+%IEEE Transactions On Image Processing
+% 1997  6(3) 451-462 .
+@inproceedings{JOBSON_Retinex,
+ author = {JOBSON D J, RAHMAN Z, WOODELL G A},
+ title = {Properties and performance of a center/surround Retinex},
+ booktitle = {IEEE Transactions On Image Processing},
+ year = {1997},
+ pages = {451-462},
+}
+
+%MOORE A,ALLMAN J, GOODMAN RM. A real-time neural system for color constancy.
+%IEEE Trans.Neural Networks
+% 1991  2, Z37-247
+@inproceedings{MOORE_Retinex,
+ author = {MOORE A,ALLMAN J, GOODMAN RM},
+ title = {PA real-time neural system for color constancy},
+ booktitle = {IEEE Trans.Neural Networks},
+ year = {1991},
+ pages = {Z37-247},
+}
+
+% Multistencils Fast Marching Methods: A Highly Accurate Solution to the Eikonal Equation on Cartesian Domains
+% M. Sabry Hassouna, Member, IEEE, and Aly A. Farag, Senior Member, IEEE
+% IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 29, NO. 9, SEPTEMBER 2007
+@inproceedings{Hassouna,
+ author = {M. Sabry Hassouna, Aly A. Farag},
+ title = {Multistencils Fast Marching Methods: A Highly Accurate Solution to the Eikonal Equation on Cartesian Domains},
+ booktitle = {IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 29, NO. 9},
+ year = {2007},
+ pages = {1563每1574},
+}
+
+% J. Andreas
+@inproceedings{Jakob,
+ author = {J. Andreas},
+ title = {ON THE IMPLEMENTATION OF FAST MARCHING METHODS FOR 3D LATTICES},
+ booktitle = {DEPARTMENT OF MATHEMATICAL MODELLING Technical Report},
+ year = {2001},
+}
+
+%
+@inproceedings{lighting_equotion,
+ author = {Anya Hurlbert},
+ title = {Formal connections between lightness algorithms},
+ booktitle = {JOSA A, Vol. 3, Issue 10},
+ year = {1986},
+ pages = {1684-1693},
+}
+
+
+
+
+%====================================== 3-d reconstruction end ==================================
